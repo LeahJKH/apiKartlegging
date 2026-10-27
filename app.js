@@ -62,3 +62,46 @@ clicker.addEventListener("click", (e) => {
     num += 1
     counter.textContent = num
 })
+
+
+
+
+// setTimeout((e) => {
+// console.log("jeg ventet")
+// }, 10000)
+
+// setInterval(() => {
+// console.log("lmao")
+// }, 1000)
+
+
+// function Greeting () {
+//     console.log("welcome")
+// }
+
+// const Greeting = () => {
+//     console.log("welcome")
+// }
+
+// Greeting()
+
+
+
+let isRunning = false
+
+if (isRunning) {
+    console.log("nei jeg kjører")
+} else if (!isRunning) {
+    console.log("lol jeg kjører ikke")
+}
+
+else {
+    console.log("hva driver du på med")
+}
+
+isRunning === true? console.log("nei jeg kjører") : console.log("lol jeg kjører ikke")
+
+const stringTest = "" // false
+const stringTest = "hei" // true
+
+if (stringTest != "hade")
